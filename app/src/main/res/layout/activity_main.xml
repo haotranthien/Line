@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/game_layout"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:contentDescription="@string/app_name" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/table"-->
+        <!--android:layout_width="360dp"-->
+        <!--android:layout_height="360dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:contentDescription="@string/app_name"-->
+        <!--android:scaleType="fitXY"-->
+        <!--app:srcCompat="@drawable/square_frm" />-->
+
+
+
+    <RelativeLayout
+        android:id="@+id/game_layout"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_centerInParent="true"
+        android:animateLayoutChanges="true"
+        tools:ignore="ExtraText">
+
+        >
+
+        <ImageView
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:scaleY="1"
+            android:scaleX="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/square_frm" />
+
+
+        //Hang 0 qua trái left vaf Start cong them 43
+
+        <ImageButton
+            android:id="@+id/ball00"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball01"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball02"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball03"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball04"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball05"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball06"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball07"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball08"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="7dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 1
+
+        <ImageButton
+            android:id="@+id/ball10"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball11"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball12"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball13"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball14"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball15"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball16"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball17"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball18"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="46dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 2
+
+        <ImageButton
+            android:id="@+id/ball20"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball21"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball22"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball23"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball24"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball25"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball26"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball27"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball28"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="85dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 3
+
+        <ImageButton
+            android:id="@+id/ball30"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball31"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball32"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball33"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball34"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball35"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball36"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball37"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball38"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="124dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 4
+
+        <ImageButton
+            android:id="@+id/ball40"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball41"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball42"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball43"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball44"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball45"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball46"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball47"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball48"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="163dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 5
+
+        <ImageButton
+            android:id="@+id/ball50"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball51"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball52"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball53"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball54"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball55"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball56"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball57"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball58"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="202dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 6
+
+        <ImageButton
+            android:id="@+id/ball60"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball61"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball62"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball63"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball64"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball65"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball66"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball67"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball68"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="241dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 7
+
+        <ImageButton
+            android:id="@+id/ball70"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball71"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball72"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball73"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball74"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball75"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball76"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball77"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball78"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="280dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+        //Hang 8
+
+        <ImageButton
+            android:id="@+id/ball80"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball81"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball82"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball83"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball84"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball85"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball86"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball87"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+        <ImageButton
+            android:id="@+id/ball88"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginLeft="319dp"
+            android:layout_marginTop="319dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sphere_blue" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/game_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/app_name"
+        android:text="Play Game"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_marginBottom="-70dp" />
+
+
+</RelativeLayout>
